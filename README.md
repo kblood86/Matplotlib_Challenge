@@ -9,34 +9,25 @@ After the data was merged any mouse with duplicate time points was removed.
 A summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen was created using two different methods.
 
 
-Two bar plots were created using different methods (PyPlot and Pandas) were total number of measurements taken for each treatment regimen throughout the course of the study.
+Two bar charts were created using different methods (PyPlot and Pandas). These showed the total number of measurements taken for each treatment regimen throughout the course of the study.
 
 
-NOTE: These plots should look identical.
+Two pie charts were created using different methods (PyPlot and Pandas). These showed the distribution of female and male mice in the study.
 
 
-
-Generate a pie plot using both Pandas's DataFrame.plot() and Matplotlib's pyplot that shows the distribution of female or male mice in the study.
-
-
-NOTE: These plots should look identical.
+The final tumor volume of each mouse was calculated across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. The quartiles and IQR were then determined. Any potential outliers were quantitatively determined across all four treatment regimens.
 
 
-
-Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculate the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
-
-
-Using Matplotlib, generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
-Hint: All four box plots should be within the same figure. Use this Matplotlib documentation page for help with changing the style of the outliers.
+A box and whisker plot of the final tumor volume for all four treatment regimens was created. The singular potential outlier in the plot was identified. 
 
 
-Select a mouse that was treated with Capomulin and generate a line plot of tumor volume vs. time point for that mouse.
+Mouse S185 was selected due to its treatment with the Capomulin regimen. A line plot show casing the tumor volume over time was created for this mouse. 
 
 
-Generate a scatter plot of tumor volume versus mouse weight for the Capomulin treatment regimen.
+A scatter plot of tumor volume versus mouse weight was also created for the Capomulin treatment regimen.
 
 
-Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
+The correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment was determined . Plot the linear regression model on top of the previous scatter plot.
 
 
 Look across all previously generated figures and tables and write at least three observations or inferences that can be made from the data. Include these observations at the top of notebook.
