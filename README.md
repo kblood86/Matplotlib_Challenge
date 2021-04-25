@@ -27,7 +27,7 @@ Mouse S185 was selected due to its treatment with the Capomulin regimen. A line 
 A scatter plot of tumor volume versus mouse weight was also created for the Capomulin treatment regimen.
 
 
-The correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment was determined . Plot the linear regression model on top of the previous scatter plot.
+The correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment was determined. The linear regression was modeled on top of the scatter plot created above.
 
 
-Look across all previously generated figures and tables and write at least three observations or inferences that can be made from the data. Include these observations at the top of notebook.
+Several observations can be made from the data. These were included at the top of notebook.
