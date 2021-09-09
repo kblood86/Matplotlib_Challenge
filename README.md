@@ -1,4 +1,4 @@
-# Matplotlib_Challenge
+# Mouse Treatment Analysis
 
 Two data sets were merged to create the intial data frame. One set included the mouse ID and it's tumor size based on the timepoint. The other data set included the Mouse ID, the drug regimen it was on, it's weight, age, and gender.
 
